@@ -40,14 +40,15 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
 }
-// function total() {
-//   // write your code here
-//   cart3 = {};
-//   for() {
-//     return
-//   }
-// }
-//
+function total() {
+  // write your code here
+  cart3 = {};
+  for(let i = 1; i < cart.length; i++) {
+    var total = cart[0].itemPrice + cart[i].itemPrice + cart[cart.length - 1]
+    return total
+  }
+}
+
 // function removeFromCart(item) {
 //   // write your code here
 //   if(condition) {
