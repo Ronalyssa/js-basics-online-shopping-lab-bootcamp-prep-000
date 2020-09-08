@@ -47,7 +47,7 @@ function total() {
   var lastPrice = cart[cart.length - 1].itemPrice
   for(let i = 1; i < cart.length - 1; i++) {
     var middlePrice = cart[i].itemPrice
-    var total += middlePrice
+    total += middlePrice
   }
   total += firstPrice + lastPrice
   return total
