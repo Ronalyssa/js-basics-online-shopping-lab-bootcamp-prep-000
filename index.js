@@ -48,11 +48,11 @@ function total() {
   for(let i = 1; i < cart.length - 1; i++) {
     var middlePrice = cart[i].itemPrice
     var total = firstPrice + middlePrice + lastPrice
-    console.log(total)
+    console.log("AAAHHHHHHHHHHH")
   }
   return total
 }
-total()
+
 
 // function removeFromCart(item) {
 //   // write your code here
