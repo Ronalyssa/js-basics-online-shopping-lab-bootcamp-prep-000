@@ -45,21 +45,21 @@ function total() {
   var firstPrice = cart[0].itemPrice
   var lastPrice = cart[cart.length - 1].itemPrice
   for(let i = 1; i < cart.length - 1; i++) {
-    var middlePrice = `${cart[i].itemPrice}`
+    var middlePrice = cart[i].itemPrice
     var total = firstPrice + middlePrice + lastPrice
     return total
   }
 }
 
-// function removeFromCart(item) {
-//   // write your code here
-//   if(condition) {
-//
-//   } else {
-//     return "The item is not in your cart."
-//   }
-// }
-//
+function removeFromCart(item) {
+  // write your code here
+  if(cart[i].itemName) {
+    return cart.
+  } else {
+    return "The item is not in your cart."
+  }
+}
+
 // function placeOrder(cardNumber) {
 //   // write your code here
 //   if(condition) {
