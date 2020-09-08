@@ -51,14 +51,14 @@ function total() {
   }
 }
 
-function removeFromCart(item) {
-  // write your code here
-  if(cart[i].itemName) {
-    return cart.
-  } else {
-    return "The item is not in your cart."
-  }
-}
+// function removeFromCart(item) {
+//   // write your code here
+//   if(cart[i].itemName) {
+//     return cart.
+//   } else {
+//     return "The item is not in your cart."
+//   }
+// }
 
 // function placeOrder(cardNumber) {
 //   // write your code here
