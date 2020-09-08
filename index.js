@@ -42,14 +42,14 @@ function viewCart() {
 }
 function total() {
   // write your code here
-  console.log("AAAHHHHHHHHHHH")
   var total = 0
   var firstPrice = cart[0].itemPrice
   var lastPrice = cart[cart.length - 1].itemPrice
   for(let i = 1; i < cart.length - 1; i++) {
     var middlePrice = cart[i].itemPrice
-    var total = firstPrice + middlePrice + lastPrice
+    var total += middlePrice 
   }
+  total += firstPrice + lastPrice
   return total
 }
 
